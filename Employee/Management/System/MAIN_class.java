@@ -28,7 +28,8 @@ public class MAIN_class extends JFrame  {
         add.setBackground(Color.BLUE);
         add.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
+            new AddEmployee();
+            setVisible(false);
             }
         });
         img.add(add);
@@ -39,7 +40,8 @@ public class MAIN_class extends JFrame  {
         view.setBackground(Color.GREEN);
         view.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-
+            new View_Employee();
+            setVisible(false);
             }
         });
         img.add(view);
