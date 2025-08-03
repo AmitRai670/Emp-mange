@@ -60,10 +60,6 @@ public class Login extends JFrame implements ActionListener {
         img.setBounds(0,0,600,300);
         add(img);
 
-
-
-
-
       setSize(600,300);
       setLocation(450,200);
       setLayout(null);
@@ -104,3 +100,4 @@ public class Login extends JFrame implements ActionListener {
     }
 
 }
+
