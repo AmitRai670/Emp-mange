@@ -12,10 +12,6 @@ public class Splash extends JFrame {
         image.setBounds(0,0,1170,650);
         add(image);
 
-
-
-
-
         setSize(1170,650);
         setLocation(200,50);
         setLayout(null);
@@ -33,3 +29,4 @@ public class Splash extends JFrame {
     new Splash();
     }
 }
+
