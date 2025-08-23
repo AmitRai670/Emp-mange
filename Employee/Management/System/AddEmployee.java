@@ -8,11 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 
-
-
 public class AddEmployee extends JFrame implements ActionListener {
-
-
 
     Random ran = new Random();
     int number = ran.nextInt(999999);
@@ -207,3 +203,4 @@ public class AddEmployee extends JFrame implements ActionListener {
       new AddEmployee();
     }
 }
+
